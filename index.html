@@ -31,15 +31,25 @@
 <section class="summary" id="summary"></section>
 
 <section class="flights" id="flights">
-  <h2>✈️ Getting there — live flight prices to Denpasar (DPS)</h2>
+  <div class="flight-route" id="flightRoute">SEA ✈ DPS</div>
+  <h2>Getting there — live fares to Denpasar, Bali</h2>
   <div class="flight-controls">
-    <input type="text" id="origin" placeholder="From (e.g. LAX)" maxlength="3" value="LAX">
-    <input type="date" id="departDate">
-    <input type="date" id="returnDate">
+    <div class="field">
+      <label for="origin">From</label>
+      <input type="text" id="origin" placeholder="SEA" maxlength="3" value="SEA">
+    </div>
+    <div class="field">
+      <label for="departDate">Depart</label>
+      <input type="date" id="departDate">
+    </div>
+    <div class="field">
+      <label for="returnDate">Return</label>
+      <input type="date" id="returnDate">
+    </div>
     <span class="trip-len" id="tripLen"></span>
   </div>
   <div class="flight-links" id="flightLinks"></div>
-  <p class="flight-note">Links open a live search — prices are real-time from airline inventory. Tip: set a Google Flights price alert to get emailed on fare drops.</p>
+  <p class="flight-note">Every link opens a fresh, real-time search. Tip: set a Google Flights price alert to get emailed on fare drops.</p>
 </section>
 
 <main>

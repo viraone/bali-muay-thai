@@ -179,9 +179,10 @@ function initFlights() {
 }
 
 function renderFlights() {
-  const origin = ($("origin").value || "LAX").toUpperCase().trim();
+  const origin = ($("origin").value || "SEA").toUpperCase().trim();
   const d1 = $("departDate").value;
   const d2 = $("returnDate").value;
+  $("flightRoute").textContent = `${origin || "SEA"} ✈ DPS`;
   if (!origin || origin.length < 3 || !d1 || !d2) {
     $("flightLinks").innerHTML = "";
     return;
@@ -207,7 +208,7 @@ function renderFlights() {
     },
   ];
   $("flightLinks").innerHTML = links
-    .map((l) => `<a href="${l.url}" target="_blank" rel="noopener">${l.label} →</a>`)
+    .map((l) => `<a href="${l.url}" target="_blank" rel="noopener">${l.label} <span class="arrow">→</span></a>`)
     .join("");
 }
 
