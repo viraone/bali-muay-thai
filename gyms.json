@@ -316,6 +316,266 @@
       "verified": false,
       "prices": {},
       "notes": "Not a gym — island-wide mobile trainer service (Canggu, Seminyak, Ubud, Uluwatu, Sanur…). Best option if you're staying somewhere without a nearby gym. Contact for rates."
+    },
+    {
+      "name": "Alpha Force Thai Boxing Club",
+      "area": "Denpasar",
+      "website": "",
+      "instagram": "",
+      "maps": "https://maps.google.com/?q=Jalan+Imam+Bonjol,+Pemecutan+Klod,+Denpasar+Bali",
+      "thaiTrainers": false,
+      "accommodation": false,
+      "classesPerDay": null,
+      "verified": false,
+      "prices": {
+        "dropIn": {
+          "idr": 150000
+        },
+        "monthly": {
+          "idr": 700000
+        }
+      },
+      "notes": "⚠️ Prices via muaythaimap.com (Sep 2026) — confirm with gym. Local Denpasar gym. Morning 8–11 AM & evening 5–7 PM weekday sessions. One of the cheapest monthly rates on the island. 📍 Jalan Imam Bonjol, Pemecutan Klod, Denpasar."
+    },
+    {
+      "name": "Dee Muay Thai",
+      "area": "Seminyak",
+      "website": "",
+      "instagram": "",
+      "maps": "https://maps.google.com/?q=Jl.+Pengubengan+Kauh+No.1D,+Kerobokan+Bali",
+      "thaiTrainers": false,
+      "accommodation": false,
+      "classesPerDay": null,
+      "verified": false,
+      "prices": {
+        "dropIn": {
+          "idr": 90000
+        },
+        "monthly": {
+          "idr": 1400000
+        }
+      },
+      "notes": "⚠️ Prices via muaythaimap.com (Sep 2026) — confirm with gym. Kerobokan (Seminyak side). Cheapest drop-in found (90k). Weekday mornings 9 AM–12 PM. 📍 Jl. Pengubengan Kauh No.1D, Kerobokan."
+    },
+    {
+      "name": "FR Muay Thai Bali",
+      "area": "Sanur",
+      "website": "",
+      "instagram": "",
+      "maps": "https://maps.google.com/?q=Gg.+Merpati,+Sanur+Kaja,+Denpasar+Selatan+Bali",
+      "thaiTrainers": false,
+      "accommodation": false,
+      "classesPerDay": null,
+      "verified": false,
+      "prices": {
+        "dropIn": {
+          "idr": 150000
+        },
+        "monthly": {
+          "idr": 1500000
+        }
+      },
+      "notes": "⚠️ Prices via muaythaimap.com (Sep 2026) — confirm with gym. Sanur option — rare for the east side. Mornings 8–9:30 AM, evenings 7–8 PM. 📍 Gg. Merpati, Sanur Kaja, Denpasar Selatan."
+    },
+    {
+      "name": "Island Warrior Bali Renon",
+      "area": "Denpasar",
+      "website": "",
+      "instagram": "",
+      "maps": "https://maps.google.com/?q=Jl.+Merdeka+No.10X,+Renon,+Denpasar+Bali",
+      "thaiTrainers": false,
+      "accommodation": false,
+      "classesPerDay": null,
+      "verified": false,
+      "prices": {
+        "dropIn": {
+          "idr": 120000
+        },
+        "monthly": {
+          "idr": 900000
+        }
+      },
+      "notes": "⚠️ Prices via muaythaimap.com (Sep 2026) — confirm with gym. Renon, Denpasar. Very affordable (900k/mo). Mornings 8–10 AM, evenings 6–8 PM. 📍 Jl. Merdeka No.10X, Renon, Denpasar."
+    },
+    {
+      "name": "Lima Fight Club",
+      "area": "Jimbaran",
+      "website": "",
+      "instagram": "",
+      "maps": "https://maps.google.com/?q=Jl.+Gigit+Sari,+Jimbaran+Bali",
+      "thaiTrainers": false,
+      "accommodation": false,
+      "classesPerDay": null,
+      "verified": false,
+      "prices": {
+        "dropIn": {
+          "idr": 100000
+        },
+        "monthly": {
+          "idr": 1200000
+        }
+      },
+      "notes": "⚠️ Prices via muaythaimap.com (Sep 2026) — confirm with gym. Jimbaran — handy for the airport side of the Bukit. Mornings 7–10 AM, evenings 6–8 PM. 📍 Jl. Gigit Sari, Jimbaran."
+    },
+    {
+      "name": "Lions MMA Bali",
+      "area": "Canggu",
+      "website": "",
+      "instagram": "",
+      "maps": "https://maps.google.com/?q=Jl.+Raya+Pererenan+Tanah+Lot+No.3,+Pererenan+Bali",
+      "thaiTrainers": false,
+      "accommodation": false,
+      "classesPerDay": null,
+      "verified": false,
+      "prices": {
+        "dropIn": {
+          "idr": 250000
+        },
+        "monthly": {
+          "idr": 1500000
+        }
+      },
+      "notes": "⚠️ Prices via muaythaimap.com (Sep 2026) — confirm with gym. Pererenan/Canggu. Mid-priced MMA + Muay Thai. Mornings 8–11 AM, evenings 5–8 PM. 📍 Jl. Raya Pererenan Tanah Lot No.3, Pererenan."
+    },
+    {
+      "name": "Mejiro Gym Bali",
+      "area": "Denpasar",
+      "website": "",
+      "instagram": "",
+      "maps": "https://maps.google.com/?q=Jl.+Pakisaji,+Sumerta+Kelod,+Denpasar+Bali",
+      "thaiTrainers": false,
+      "accommodation": false,
+      "classesPerDay": null,
+      "verified": false,
+      "prices": {
+        "dropIn": {
+          "idr": 200000
+        },
+        "monthly": {
+          "idr": 1350000
+        }
+      },
+      "notes": "⚠️ Prices via muaythaimap.com (Sep 2026) — confirm with gym. Denpasar branch of the famous Dutch kickboxing lineage. Mornings 8–10 AM, evenings 6–8 PM. 📍 Jl. Pakisaji, Sumerta Kelod, Denpasar."
+    },
+    {
+      "name": "THE BLOCK",
+      "area": "Canggu",
+      "website": "",
+      "instagram": "",
+      "maps": "https://maps.google.com/?q=Jl.+Belulang+Yeh+No.9,+Pererenan+Bali",
+      "thaiTrainers": false,
+      "accommodation": false,
+      "classesPerDay": null,
+      "verified": false,
+      "prices": {
+        "dropIn": {
+          "idr": 300000
+        },
+        "monthly": {
+          "idr": 2200000
+        }
+      },
+      "notes": "⚠️ Prices via muaythaimap.com (Sep 2026) — confirm with gym. Pererenan/Canggu boutique fight gym. 2.2M/mo sits between budget gyms and Bali MMA. 📍 Jl. Belulang Yeh No.9, Pererenan."
+    },
+    {
+      "name": "Tiger Muay Thai Bali & MMA",
+      "area": "Uluwatu",
+      "website": "",
+      "instagram": "",
+      "maps": "https://maps.google.com/?q=Ungasan,+South+Kuta+Bali",
+      "thaiTrainers": false,
+      "accommodation": false,
+      "classesPerDay": null,
+      "verified": false,
+      "prices": {
+        "dropIn": {
+          "idr": 350000
+        },
+        "monthly": {
+          "idr": 4500000
+        }
+      },
+      "notes": "⚠️ Prices via muaythaimap.com (Sep 2026) — confirm with gym. Ungasan (Bukit). Bali outpost bearing the famous Tiger name — priciest monthly on the island (4.5M). Mornings 7–9 AM, evenings 5–6:30 PM. 📍 Ungasan, South Kuta."
+    },
+    {
+      "name": "Ubud Muay Thai",
+      "area": "Ubud",
+      "website": "",
+      "instagram": "",
+      "maps": "https://maps.google.com/?q=Jl.+Nyuh+Gading+No.19,+Mas,+Ubud+Bali",
+      "thaiTrainers": false,
+      "accommodation": false,
+      "classesPerDay": null,
+      "verified": false,
+      "prices": {
+        "dropIn": {
+          "idr": 200000
+        },
+        "monthly": {
+          "idr": 1800000
+        }
+      },
+      "notes": "⚠️ Prices via muaythaimap.com (Sep 2026) — confirm with gym. Dedicated Muay Thai gym in Ubud. Mornings 8–10 AM, evenings 5–6 PM. 📍 Jl. Nyuh Gading No.19, Mas, Ubud."
+    },
+    {
+      "name": "Ubud Warrior Fight Club",
+      "area": "Ubud",
+      "website": "",
+      "instagram": "",
+      "maps": "https://maps.google.com/?q=Jl.+Made+Lebah+No.2,+Peliatan,+Ubud+Bali",
+      "thaiTrainers": false,
+      "accommodation": false,
+      "classesPerDay": null,
+      "verified": false,
+      "prices": {
+        "dropIn": {
+          "idr": 100000
+        },
+        "monthly": {
+          "idr": 1500000
+        }
+      },
+      "notes": "⚠️ Prices via muaythaimap.com (Sep 2026) — confirm with gym. Budget-friendly Ubud fight club. Mornings 8–11 AM, afternoons 4–6 PM. 📍 Jl. Made Lebah No.2, Peliatan, Ubud."
+    },
+    {
+      "name": "Zando Fight Camp",
+      "area": "Uluwatu",
+      "website": "",
+      "instagram": "",
+      "maps": "https://maps.google.com/?q=Ungasan,+South+Kuta+Bali",
+      "thaiTrainers": false,
+      "accommodation": false,
+      "classesPerDay": null,
+      "verified": false,
+      "prices": {
+        "dropIn": {
+          "idr": 150000
+        },
+        "monthly": {
+          "idr": 1600000
+        }
+      },
+      "notes": "⚠️ Prices via muaythaimap.com (Sep 2026) — confirm with gym. Fight camp in Ungasan on the Bukit. Mornings 8–9 AM, evenings 5–7 PM. 📍 Ungasan, South Kuta."
+    },
+    {
+      "name": "Zealot Muaythai Bali",
+      "area": "Canggu",
+      "website": "",
+      "instagram": "",
+      "maps": "https://maps.google.com/?q=Jl.+Pantai+Seseh,+Munggu+Bali",
+      "thaiTrainers": false,
+      "accommodation": false,
+      "classesPerDay": null,
+      "verified": false,
+      "prices": {
+        "dropIn": {
+          "idr": 200000
+        },
+        "monthly": {
+          "idr": 1500000
+        }
+      },
+      "notes": "⚠️ Prices via muaythaimap.com (Sep 2026) — confirm with gym. Seseh/Munggu, just west of Canggu — quieter area, solid pricing. Mornings 8–10 AM, evenings 5–7 PM. 📍 Jl. Pantai Seseh, Munggu."
     }
   ]
 }
