@@ -1,0 +1,129 @@
+:root {
+  --bg: #0f1115;
+  --card: #1a1e26;
+  --card-hover: #222733;
+  --text: #e8eaed;
+  --muted: #9aa3b2;
+  --accent: #f2545b;
+  --accent2: #ffb800;
+  --border: #2c3240;
+  --radius: 12px;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.55;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 24px 16px 60px;
+}
+
+header { text-align: center; padding: 24px 0 12px; }
+header h1 { font-size: 2.2rem; letter-spacing: -0.5px; }
+.tagline { color: var(--muted); margin-top: 6px; }
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  margin: 20px 0;
+}
+.controls input[type="search"], .controls select {
+  background: var(--card);
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 9px 12px;
+  border-radius: 8px;
+  font-size: 0.95rem;
+}
+.controls input[type="search"] { flex: 1; min-width: 180px; }
+.toggle { display: flex; gap: 6px; align-items: center; color: var(--muted); font-size: 0.9rem; cursor: pointer; }
+
+.summary {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.stat {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 12px 14px;
+}
+.stat .num { font-size: 1.4rem; font-weight: 700; color: var(--accent2); }
+.stat .label { color: var(--muted); font-size: 0.8rem; }
+
+.view-toggle { display: flex; gap: 8px; margin-bottom: 14px; }
+.view-toggle button {
+  background: var(--card);
+  border: 1px solid var(--border);
+  color: var(--muted);
+  padding: 7px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.view-toggle button.active { color: var(--text); border-color: var(--accent); }
+
+.cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 14px; }
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 18px;
+  transition: background 0.15s, transform 0.15s;
+}
+.card:hover { background: var(--card-hover); transform: translateY(-2px); }
+.card h3 { font-size: 1.15rem; margin-bottom: 2px; }
+.card .area { color: var(--accent2); font-size: 0.85rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; }
+.card .desc { color: var(--muted); font-size: 0.9rem; margin: 8px 0 12px; }
+
+.prices { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; margin-bottom: 12px; }
+.price { background: rgba(255,255,255,0.04); border-radius: 8px; padding: 8px 10px; }
+.price .val { font-weight: 700; font-size: 0.98rem; }
+.price .lbl { color: var(--muted); font-size: 0.75rem; }
+.price.highlight { outline: 1px solid var(--accent); }
+
+.badges { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 12px; }
+.badge {
+  background: rgba(242,84,91,0.15);
+  color: var(--accent);
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 3px 9px;
+  border-radius: 99px;
+}
+.badge.alt { background: rgba(255,184,0,0.12); color: var(--accent2); }
+.badge.verified { background: rgba(46,204,113,0.15); color: #2ecc71; }
+.badge.unverified { background: rgba(154,163,178,0.15); color: var(--muted); }
+
+.links a {
+  color: var(--accent);
+  text-decoration: none;
+  font-size: 0.88rem;
+  margin-right: 12px;
+}
+.links a:hover { text-decoration: underline; }
+
+.table-wrap { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; font-size: 0.92rem; }
+th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--border); }
+th { color: var(--muted); cursor: pointer; user-select: none; white-space: nowrap; }
+th:hover { color: var(--text); }
+tbody tr:hover { background: var(--card); }
+td a { color: var(--accent); text-decoration: none; }
+
+footer { margin-top: 40px; color: var(--muted); font-size: 0.82rem; text-align: center; }
+
+.empty { color: var(--muted); text-align: center; padding: 40px; grid-column: 1/-1; }
+
+@media (max-width: 600px) {
+  header h1 { font-size: 1.6rem; }
+  .prices { grid-template-columns: 1fr; }
+}

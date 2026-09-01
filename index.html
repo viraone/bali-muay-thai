@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bali Muay Thai — 30-Day Training Trip Planner</title>
+<meta name="description" content="Compare Muay Thai gyms in Bali: prices, schedules, locations. Plan your 30-day training trip.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <h1>🥊 Bali Muay Thai</h1>
+  <p class="tagline">Every gym, every price — plan your 30-day training trip in one page.</p>
+</header>
+
+<section class="controls">
+  <input type="search" id="search" placeholder="Search gyms…">
+  <select id="areaFilter">
+    <option value="">All areas</option>
+  </select>
+  <label class="toggle">
+    <input type="checkbox" id="currencyToggle">
+    <span>Show USD</span>
+  </label>
+  <label class="toggle">
+    <input type="checkbox" id="monthlyOnly">
+    <span>Monthly plans only</span>
+  </label>
+</section>
+
+<section class="summary" id="summary"></section>
+
+<main>
+  <div class="view-toggle">
+    <button id="cardViewBtn" class="active">Cards</button>
+    <button id="tableViewBtn">Table</button>
+  </div>
+
+  <div id="cardView" class="cards"></div>
+
+  <div id="tableView" class="table-wrap" hidden>
+    <table>
+      <thead>
+        <tr>
+          <th data-sort="name">Gym ⇅</th>
+          <th data-sort="area">Area ⇅</th>
+          <th data-sort="dropIn">Drop-in ⇅</th>
+          <th data-sort="weekly">Weekly ⇅</th>
+          <th data-sort="monthly">Monthly ⇅</th>
+          <th>Camp / Stay</th>
+          <th>Links</th>
+        </tr>
+      </thead>
+      <tbody id="tableBody"></tbody>
+    </table>
+  </div>
+</main>
+
+<footer>
+  <p>Prices are approximate and change often — always confirm with the gym. Last updated: <span id="lastUpdated"></span>.</p>
+  <p>Exchange rate used: <span id="fxRate"></span> IDR/USD (approx).</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
