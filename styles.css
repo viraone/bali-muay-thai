@@ -102,6 +102,7 @@ header h1 { font-size: 2.2rem; letter-spacing: -0.5px; }
 .badge.alt { background: rgba(255,184,0,0.12); color: var(--accent2); }
 .badge.verified { background: rgba(46,204,113,0.15); color: #2ecc71; }
 .badge.unverified { background: rgba(154,163,178,0.15); color: var(--muted); }
+.usd { color: var(--accent2); font-weight: 600; font-size: 0.85em; white-space: nowrap; }
 
 .links a {
   color: var(--accent);

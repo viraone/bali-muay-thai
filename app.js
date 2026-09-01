@@ -59,10 +59,11 @@ function priceVal(g, key) {
 function fmtPrice(g, key) {
   const p = g.prices?.[key];
   if (!p || p.idr == null) return "—";
-  const usd = $("currencyToggle").checked;
+  const usdOnly = $("currencyToggle").checked;
   const approx = g.verified ? "" : "~";
-  if (usd) return approx + "$" + Math.round(p.idr / FX_RATE);
-  return approx + (p.idr / 1000).toLocaleString() + "k IDR";
+  const usd = approx + "$" + Math.round(p.idr / FX_RATE);
+  if (usdOnly) return usd;
+  return `${approx}${(p.idr / 1000).toLocaleString()}k IDR <span class="usd">· ${usd}</span>`;
 }
 
 function filtered() {
@@ -99,9 +100,11 @@ function render() {
 
 function renderSummary(list) {
   const monthlies = list.map((g) => priceVal(g, "monthly")).filter((v) => v != null);
-  const usd = $("currencyToggle").checked;
-  const fmt = (idr) =>
-    usd ? "$" + Math.round(idr / FX_RATE) : (idr / 1000).toLocaleString() + "k";
+  const usdOnly = $("currencyToggle").checked;
+  const fmt = (idr) => {
+    const usd = "$" + Math.round(idr / FX_RATE);
+    return usdOnly ? usd : `${(idr / 1000).toLocaleString()}k <span class="usd">· ${usd}</span>`;
+  };
   $("summary").innerHTML = `
     <div class="stat"><div class="num">${list.length}</div><div class="label">Gyms shown</div></div>
     <div class="stat"><div class="num">${monthlies.length ? fmt(Math.min(...monthlies)) : "—"}</div><div class="label">Cheapest monthly</div></div>
