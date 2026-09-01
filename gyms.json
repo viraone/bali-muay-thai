@@ -22,7 +22,87 @@
           "idr": 2900000
         }
       },
-      "notes": "Bali's most established fight gym (est. 2014). ~6 Muay Thai/boxing classes daily (08:00 & 09:00 pads all levels, 10:30 advanced, sparring Wed/Sat, 16:00–19:30 evening block). Ring, MMA cage, AC grappling room, ice bath, sauna. ⭐ Top pick for a 30-day trip. 🔥 20% promo now: monthly 2.32M IDR (~$143). Scraped from balimma.com Sep 2026."
+      "notes": "Bali's most established fight gym (est. 2014). ~6 Muay Thai/boxing classes daily (08:00 & 09:00 pads all levels, 10:30 advanced, sparring Wed/Sat, 16:00–19:30 evening block). Ring, MMA cage, AC grappling room, ice bath, sauna. ⭐ Top pick for a 30-day trip. 🔥 20% promo now: monthly 2.32M IDR (~$143). Scraped from balimma.com Sep 2026.",
+      "schedule": {
+        "title": "Muay Thai & Boxing — weekly schedule (scraped Sep 2026)",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat"
+        ],
+        "slots": [
+          {
+            "time": "08:00–09:00",
+            "classes": [
+              "Boxing Pads",
+              "Boxing Pads",
+              "Boxing Pads",
+              "Boxing Pads",
+              "Boxing Pads",
+              "Boxing Pads"
+            ]
+          },
+          {
+            "time": "09:00–10:30",
+            "classes": [
+              "MT Pads",
+              "MT Pads",
+              "MT Pads",
+              "MT Pads",
+              "MT Pads",
+              "MT Pads"
+            ]
+          },
+          {
+            "time": "10:30–12:00",
+            "classes": [
+              "MT Advanced",
+              "MT Advanced",
+              "MT Sparring*",
+              "MT Advanced",
+              "MT Advanced",
+              "MT Sparring*"
+            ]
+          },
+          {
+            "time": "16:00–17:00",
+            "classes": [
+              "Boxing Drills",
+              "Boxing Pads",
+              "Boxing Drills",
+              "Boxing Pads",
+              "Boxing Drills",
+              null
+            ]
+          },
+          {
+            "time": "17:00–18:00",
+            "classes": [
+              "MT Pads",
+              "Boxing Sparring",
+              "MT Pads",
+              "Boxing Sparring",
+              "MT Pads",
+              null
+            ]
+          },
+          {
+            "time": "18:00–19:30",
+            "classes": [
+              "MT Advanced",
+              "MT Advanced",
+              null,
+              "MT Advanced",
+              "MT Advanced",
+              null
+            ]
+          }
+        ],
+        "footnote": "*Sparring runs 10:30–11:30. Pads classes are all levels; Advanced = fighters. Gym hours: Mon–Fri 06:00–22:00, Sat–Sun 07:00–18:00."
+      }
     },
     {
       "name": "Soma Fight Club",

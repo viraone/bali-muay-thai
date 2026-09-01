@@ -141,6 +141,7 @@ function renderCards(list) {
         ${g.instagram ? `<a href="${g.instagram}" target="_blank" rel="noopener">Instagram</a>` : ""}
         ${g.maps ? `<a href="${g.maps}" target="_blank" rel="noopener">Map</a>` : ""}
       </div>
+      ${g.schedule ? renderSchedule(g) : ""}
     </div>`
     )
     .join("");
@@ -213,3 +214,35 @@ function renderFlights() {
 }
 
 initFlights();
+
+/* ---- Gym schedule ---- */
+function renderSchedule(g) {
+  const s = g.schedule;
+  const rows = s.slots
+    .map(
+      (slot) => `
+      <tr>
+        <td class="sched-time">${slot.time}</td>
+        ${slot.classes
+          .map((c) => {
+            if (!c) return "<td class='sched-empty'>—</td>";
+            const cls = /sparring/i.test(c) ? "sched-spar" : /advanced/i.test(c) ? "sched-adv" : "sched-all";
+            return `<td class="${cls}">${c}</td>`;
+          })
+          .join("")}
+      </tr>`
+    )
+    .join("");
+  return `
+    <details class="sched">
+      <summary>📅 View weekly schedule</summary>
+      <div class="sched-title">${s.title}</div>
+      <div class="sched-scroll">
+        <table class="sched-table">
+          <thead><tr><th></th>${s.days.map((d) => `<th>${d}</th>`).join("")}</tr></thead>
+          <tbody>${rows}</tbody>
+        </table>
+      </div>
+      <p class="sched-foot">${s.footnote}</p>
+    </details>`;
+}

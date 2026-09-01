@@ -226,3 +226,32 @@ footer { margin-top: 40px; color: var(--muted); font-size: 0.82rem; text-align: 
   header h1 { font-size: 1.6rem; }
   .prices { grid-template-columns: 1fr; }
 }
+
+/* ---- Schedule ---- */
+.sched { margin-top: 12px; border-top: 1px solid var(--border); padding-top: 10px; }
+.sched summary {
+  cursor: pointer;
+  color: var(--accent2);
+  font-weight: 600;
+  font-size: 0.88rem;
+  user-select: none;
+}
+.sched summary:hover { color: var(--accent); }
+.sched-title { color: var(--muted); font-size: 0.78rem; margin: 10px 0 8px; }
+.sched-scroll { overflow-x: auto; }
+.sched-table { width: 100%; border-collapse: collapse; font-size: 0.72rem; }
+.sched-table th {
+  color: var(--muted);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  padding: 4px 6px;
+  cursor: default;
+  border-bottom: 1px solid var(--border);
+}
+.sched-table td { padding: 5px 6px; border-bottom: 1px solid rgba(44,50,64,0.5); text-align: center; white-space: nowrap; }
+.sched-time { color: var(--muted); font-weight: 600; text-align: left !important; }
+.sched-all { color: var(--text); }
+.sched-adv { color: var(--accent2); font-weight: 600; }
+.sched-spar { color: var(--accent); font-weight: 700; }
+.sched-empty { color: var(--border); }
+.sched-foot { color: var(--muted); font-size: 0.72rem; margin-top: 8px; }
