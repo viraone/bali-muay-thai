@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-31",
+  "lastUpdated": "2026-09-01",
   "gyms": [
     {
       "name": "Bali MMA",
@@ -9,14 +9,20 @@
       "maps": "https://maps.google.com/?q=Bali+MMA+Berawa+Canggu",
       "thaiTrainers": true,
       "accommodation": false,
-      "classesPerDay": null,
+      "classesPerDay": 6,
       "verified": true,
       "prices": {
-        "dropIn": { "idr": 300000 },
-        "weekly": { "idr": 1300000 },
-        "monthly": { "idr": 2900000 }
+        "dropIn": {
+          "idr": 300000
+        },
+        "weekly": {
+          "idr": 1300000
+        },
+        "monthly": {
+          "idr": 2900000
+        }
       },
-      "notes": "Bali's most established fight gym (est. 2014). Ring, MMA cage, AC grappling room, ice bath, sauna. Classes all day, all levels. Thai trainers on staff. ⭐ Top pick for a 30-day trip. Prices verified from balimma.com (Jul 2026 pricelist); 20% promo seen (~2.32M/mo)."
+      "notes": "Bali's most established fight gym (est. 2014). ~6 Muay Thai/boxing classes daily (08:00 & 09:00 pads all levels, 10:30 advanced, sparring Wed/Sat, 16:00–19:30 evening block). Ring, MMA cage, AC grappling room, ice bath, sauna. ⭐ Top pick for a 30-day trip. 🔥 20% promo now: monthly 2.32M IDR (~$143). Scraped from balimma.com Sep 2026."
     },
     {
       "name": "Soma Fight Club",
@@ -29,9 +35,15 @@
       "classesPerDay": null,
       "verified": true,
       "prices": {
-        "dropIn": { "idr": 375000 },
-        "weekly": { "idr": 1600000 },
-        "monthly": { "idr": 3500000 }
+        "dropIn": {
+          "idr": 375000
+        },
+        "weekly": {
+          "idr": 1600000
+        },
+        "monthly": {
+          "idr": 3500000
+        }
       },
       "notes": "Premium boutique fight gym — Muay Thai, boxing, BJJ, wrestling. Higher price, high-quality trainers. Open-gym-only monthly is 2M IDR. Prices verified from somafightclub.com (Aug 2026)."
     },
@@ -46,7 +58,9 @@
       "classesPerDay": null,
       "verified": true,
       "prices": {
-        "monthly": { "idr": 2490000 }
+        "monthly": {
+          "idr": 2490000
+        }
       },
       "notes": "Luxury wellness gym, not a dedicated Muay Thai gym — great for recovery days (pool, ice bath, sauna). Silver 4-week plan 2.49M IDR +15% tax/service. Sister brand bodyfactorystays.com offers accommodation. Verify MT classes before committing."
     },
@@ -61,8 +75,12 @@
       "classesPerDay": null,
       "verified": false,
       "prices": {
-        "dropIn": { "idr": 175000 },
-        "monthly": { "idr": 1350000 }
+        "dropIn": {
+          "idr": 175000
+        },
+        "monthly": {
+          "idr": 1350000
+        }
       },
       "notes": "⚠️ Prices unverified (community reports, ~1.2–1.5M/mo). Budget-friendly local/expat gym, Muay Thai + MMA. Often recommended in expat groups. DM on Instagram to confirm."
     },
@@ -77,8 +95,12 @@
       "classesPerDay": null,
       "verified": false,
       "prices": {
-        "dropIn": { "idr": 175000 },
-        "monthly": { "idr": 1750000 }
+        "dropIn": {
+          "idr": 175000
+        },
+        "monthly": {
+          "idr": 1750000
+        }
       },
       "notes": "⚠️ Prices unverified (~1.5–2M/mo). The main dedicated fight gym on the Bukit — best pick if you're staying Uluwatu/Bingin/Padang Padang. Muay Thai, boxing, BJJ. Confirm it's open via Instagram."
     },
@@ -93,8 +115,12 @@
       "classesPerDay": null,
       "verified": false,
       "prices": {
-        "dropIn": { "idr": 175000 },
-        "monthly": { "idr": 1750000 }
+        "dropIn": {
+          "idr": 175000
+        },
+        "monthly": {
+          "idr": 1750000
+        }
       },
       "notes": "⚠️ Prices unverified (~1.5–2M/mo). Mixed community reviews — decent for beginners, scheduling reported inconsistent. Verify current status before committing a month."
     },
@@ -109,8 +135,12 @@
       "classesPerDay": null,
       "verified": false,
       "prices": {
-        "dropIn": { "idr": 175000 },
-        "monthly": { "idr": 1750000 }
+        "dropIn": {
+          "idr": 175000
+        },
+        "monthly": {
+          "idr": 1750000
+        }
       },
       "notes": "⚠️ Prices unverified (~1.5–2M/mo). Small friendly community gym, Thai trainers reported, authentic MT at budget prices."
     },
@@ -125,7 +155,9 @@
       "classesPerDay": null,
       "verified": false,
       "prices": {
-        "monthly": { "idr": 2500000 }
+        "monthly": {
+          "idr": 2500000
+        }
       },
       "notes": "⚠️ Prices unverified (~2–3M/mo retreat packages). Holistic jungle retreat: Muay Thai + yoga + meditation. Great for wellness vibe, not a high-volume fight camp."
     },
@@ -140,8 +172,12 @@
       "classesPerDay": null,
       "verified": false,
       "prices": {
-        "dropIn": { "idr": 212000 },
-        "monthly": { "idr": 2250000 }
+        "dropIn": {
+          "idr": 212000
+        },
+        "monthly": {
+          "idr": 2250000
+        }
       },
       "notes": "⚠️ Prices unverified (~2–2.5M/mo). Solid mid-tier gym in Pererenan: Muay Thai, boxing, S&C. Positive reviews from long-term expat trainees."
     },
@@ -156,7 +192,9 @@
       "classesPerDay": null,
       "verified": false,
       "prices": {
-        "monthly": { "idr": 2000000 }
+        "monthly": {
+          "idr": 2000000
+        }
       },
       "notes": "⚠️ Prices unverified (~1.5–2.5M/mo). Boutique fitness studio with boxing/kickboxing cardio classes — may not offer traditional MT pad work. Verify before booking."
     },
