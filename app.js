@@ -162,3 +162,53 @@ function renderTable(list) {
     )
     .join("");
 }
+
+/* ---- Flights section ---- */
+function initFlights() {
+  const depart = new Date();
+  depart.setDate(depart.getDate() + 60);
+  const ret = new Date(depart);
+  ret.setDate(ret.getDate() + 30);
+  const iso = (d) => d.toISOString().slice(0, 10);
+  $("departDate").value = iso(depart);
+  $("returnDate").value = iso(ret);
+  ["origin", "departDate", "returnDate"].forEach((id) =>
+    $(id).addEventListener("input", renderFlights)
+  );
+  renderFlights();
+}
+
+function renderFlights() {
+  const origin = ($("origin").value || "LAX").toUpperCase().trim();
+  const d1 = $("departDate").value;
+  const d2 = $("returnDate").value;
+  if (!origin || origin.length < 3 || !d1 || !d2) {
+    $("flightLinks").innerHTML = "";
+    return;
+  }
+  const days = Math.round((new Date(d2) - new Date(d1)) / 86400000);
+  $("tripLen").textContent = days > 0 ? `${days}-day trip` : "";
+
+  const compact = (d) => d.slice(2).replaceAll("-", ""); // 2026-11-01 -> 261101
+  const links = [
+    {
+      label: "Google Flights",
+      url: `https://www.google.com/travel/flights?q=${encodeURIComponent(
+        `Flights from ${origin} to DPS on ${d1} through ${d2}`
+      )}`,
+    },
+    {
+      label: "Skyscanner",
+      url: `https://www.skyscanner.com/transport/flights/${origin.toLowerCase()}/dps/${compact(d1)}/${compact(d2)}/`,
+    },
+    {
+      label: "Kayak",
+      url: `https://www.kayak.com/flights/${origin}-DPS/${d1}/${d2}`,
+    },
+  ];
+  $("flightLinks").innerHTML = links
+    .map((l) => `<a href="${l.url}" target="_blank" rel="noopener">${l.label} →</a>`)
+    .join("");
+}
+
+initFlights();
